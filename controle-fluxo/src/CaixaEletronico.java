@@ -8,7 +8,7 @@ public class CaixaEletronico {
             System.out.println("Saque realizado com sucesso! Seu saldo atual é: " + saldo);
         }
         else
-            System.out.println("Saldo insuficiente");
+            System.out.println("Saldo considerado insuficiente");
 
 
     }
