@@ -4,6 +4,7 @@ public class SmartTv {
     int canal = 1;
     int volume = 25;
 
+    //Métodos da Tv
     public void ligar() {
         ligada = true;
     }   

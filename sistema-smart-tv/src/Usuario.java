@@ -1,6 +1,7 @@
 public class Usuario {
     public static void main(String[] args) throws Exception {
         
+        //Criando nova tv e testando os métodos
         SmartTv smartTv = new SmartTv();
         System.out.println("Tv Ligada? " + smartTv.ligada);
         System.out.println("Canal atual:" + smartTv.canal);
@@ -13,7 +14,7 @@ public class Usuario {
         smartTv.aumentarVolume();
         smartTv.diminuirVolume();
         System.out.println("Volume atual: " +smartTv.volume);
-
+        
         smartTv.mudarCanal(15);
         smartTv.diminuirCanal();
         smartTv.desligar();
